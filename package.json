@@ -2,9 +2,10 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "create a basic blog for learning express courses",
-  "main": "main.js",
+  "main": "./src/main.js",
   "scripts": {
-    "start": "nodemon ./main.js",
+    "start": "nodemon ./src/main.js",
+    "listen": "node-sass --watch ./src/resources/scss/app.scss -o ./src/public/css/app.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,9 +19,12 @@
   },
   "homepage": "https://github.com/imperator0309/nodejs_blog#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "node-sass": "^9.0.0",
     "nodemon": "^3.0.1"
   }
 }
