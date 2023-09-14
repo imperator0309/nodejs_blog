@@ -1,9 +1,4 @@
+@import 'variables';
 h1 {
-    color: blue;
-    font-style: italic;
-}
-
-.app {
-    color: blue;
-    font-style: italic;
+    color: $red-color;
 }
