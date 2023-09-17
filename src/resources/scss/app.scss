@@ -1,4 +1,22 @@
 @import 'variables';
 h1 {
-    color: $red-color;
+    color: $black-color;
+}
+
+.card-img-top {
+    object-fit: contain;
+    margin: auto;
+}
+
+.card {
+    width: 286px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
